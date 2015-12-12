@@ -438,7 +438,7 @@ progress::-moz-progress-bar {
 		}
 
 		.flex-container {
-			display: -webkit-flex;
+			display: -ms-flexbox;
 		}
 
 }
