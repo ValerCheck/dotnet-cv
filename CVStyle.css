@@ -323,15 +323,7 @@ progress::-moz-progress-bar {
 	and (max-height: 2048px) {
 
 		body {
-			fonr-size: 16px;
-		}
-
-		.flex-container {
-			flex-direction: column-reverse;
-		}
-
-		.flex-container.reversed {
-			flex-direction: column;
+			font-size: 16px;
 		}
 
 		h1.cv-title {
