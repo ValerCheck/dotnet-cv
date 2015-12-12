@@ -345,7 +345,7 @@ progress::-moz-progress-bar {
 		}
 
 		.header-container > p {
-			margin: 0 70px;
+			padding: 0 70px;
 			font-size: 1em;
 		}
 
