@@ -468,4 +468,9 @@ progress::-moz-progress-bar {
 			margin: 0;
 		}
 
+		.header-container > p,
+		.flex-list-item {
+			padding: 0 1em;
+		}
+
 }
