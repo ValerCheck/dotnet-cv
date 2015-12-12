@@ -329,13 +329,19 @@ progress::-moz-progress-bar {
 			flex-direction: column;
 		}
 
-		h1.cv-title, h2.cv-title {
+		h1.cv-title {
 			text-align: center;
+			font-size: 4em;
+		}
+
+		h2.cv-title {
+			text-align: center;
+		 	font-size: 3em;
 		}
 
 		.header-container > p {
 			margin: 0 70px;
-			font-size: 30px;
+			font-size: 2em;
 		}
 
 		h2.subtitle {
@@ -345,7 +351,7 @@ progress::-moz-progress-bar {
 		h2.title,
 		h2.subtitle {
 			margin-top: 50px;
-			font-size: 50px;
+			font-size: 4em;
 			text-align: center;
 		}
 
@@ -357,7 +363,7 @@ progress::-moz-progress-bar {
 		.table-list-date {
 			align-self: center;
 			width: 100%;
-			font-size: 20px;
+			font-size: 1em;
 			margin: 10px auto 10px auto;
 		}
 
@@ -415,13 +421,13 @@ progress::-moz-progress-bar {
 
 		#contacts-list li:before {
 			display: block;
-			font-size: 40px;
+			font-size: 2em;
 			width: 100%;
 		}
 
 		#contacts-list li {
 			display: list-item;
-			margin-bottom: 40px;
+			margin-bottom: 2em;
 		}
 
 		#contacts-list li span {
