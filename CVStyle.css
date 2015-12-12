@@ -437,4 +437,8 @@ progress::-moz-progress-bar {
 			width: 90%;
 		}
 
+		.flex-container {
+			display: -webkit-flex;
+		}
+
 }
