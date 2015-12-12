@@ -438,7 +438,12 @@ progress::-moz-progress-bar {
 		}
 
 		.flex-container {
-			display: -ms-flexbox;
+			display: -webkit-box;
+			display: box;
+    		-webkit-box-orient: vertical;
+    		box-orient: vertical;
+    		-webkit-box-direction: reverse;
+    		box-direction: reverse;
 		}
 
 }
