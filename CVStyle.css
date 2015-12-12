@@ -48,7 +48,6 @@ body {
 
 #contacts h2:first-child {
 	margin-top: 0;
-
 }
 
 .flex-item.left {
@@ -318,9 +317,9 @@ progress::-moz-progress-bar {
 
 @media only screen 
 	and (min-width: 300px)
-	and (max-width: 1200px)
+	and (max-width: 900px)
 	and (min-height: 300px)
-	and (max-height: 2048px) {
+	and (max-height: 900px) {
 
 		body {
 			font-size: 16px;
@@ -464,19 +463,4 @@ progress::-moz-progress-bar {
 		.flex-list-item {
 			padding: 0 1em;
 		}
-
-}
-
-@media only screen 
-	and (min-width: 300px)
-	and (max-width: 1200px)
-	and (min-height: 300px)
-	and (max-height: 2048px)
-	and (orientation: landscape) {
-
-		body {
-			width: 50%;
-
-		}
-
 }
