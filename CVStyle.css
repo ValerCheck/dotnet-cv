@@ -28,6 +28,10 @@ body {
 	align-items: stretch;
 }
 
+.header-container.flex-item.left {
+	margin-top: 40px;
+}
+
 .flex-container.vertical {
 	flex-flow: column;
 	margin-top: 0;
@@ -204,6 +208,8 @@ h4.job-title {
 
 .header-container > p {
 	font-size: 18px;
+	text-align: justify;
+	margin-right: 20px;
 }
 
 progress {
@@ -230,6 +236,8 @@ progress::-moz-progress-bar {
 	body {
 		height: 297mm;
 		width: 210mm;
+		margin: 0;
+		padding: 0;
 	}
 
 	h1.cv-title, h1.title {
@@ -237,16 +245,23 @@ progress::-moz-progress-bar {
 		font-weight: bold;
 	}
 
-	h2.cv-title, h1.title {
+	h2.cv-title, h2.title {
 		font-size: 18px;
 		font-weight: bold;
 	}
 
+	.subtitle {
+		font-size: 18px;
+	}
+
 	#main {
 		box-shadow: 0 0 24px black;
-		width: 98%;
-		height: 700px;
+		height: 297mm;
 		margin: auto;
+		width: 100%;
+		display: flex;
+		flex-flow: column;
+		justify-content: center;
 	}
 
 	.header-container > p {
@@ -255,25 +270,48 @@ progress::-moz-progress-bar {
 
 	.flex-item.left {
 		flex-basis: 63%;
+		margin-left: 20px;
 	}
 
 	.flex-item.right{
-		background-color: lightgrey;
+		background-color: #00001f;
+		color: azure;
 		min-width: 34%;
 		margin: 0;
 	}
 
 	#header-photo {
+		margin-top: 70px;
 		width: 200px;
 		height: 200px;
 		border-radius: 50%;
-		background-image: url('images/profile-photo.jpg');
+		background-image: url('images/profile-photo-new.jpg');
 		background-size: 200px 200px;
 	}
 
-	#contacts-list, #skills-list {
-		font-size: 14px;
+	#contacts-list, 
+	#skills-list {
+		font-size: 13px;
 		padding-left: 24px;
+		margin-bottom: 50px;
+	}
+
+	#skills-list li {
+		margin-bottom: 10px;
+	}
+
+	.table-list-date {
+		font-size: 14px;
+		width: 30%;
+	}
+
+	.table-list-description {
+		font-size: 14px;
+		width: 65%;
+	}
+
+	.header-container.flex-item.left {
+		margin-top: 60px;
 	}
 
 }
