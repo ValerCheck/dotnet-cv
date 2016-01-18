@@ -10,6 +10,10 @@ body {
 	margin: auto;
 }
 
+.divider {
+	display: none;
+}
+
 .content {
 	margin-left: auto;
 	margin-right: auto;
@@ -236,6 +240,7 @@ progress::-moz-progress-bar {
 		width: 210mm;
 		margin: 0;
 		padding: 0;
+		background-image: none;
 	}
 
 	h1.cv-title, h1.title {
@@ -259,7 +264,19 @@ progress::-moz-progress-bar {
 		width: 100%;
 		display: flex;
 		flex-flow: column;
-		justify-content: center;
+	}
+
+	.divider {
+		display: inline;
+	}
+
+	.content {
+		background-color: white;
+	}
+
+	.content.cv-content {
+		flex: 1;
+		display: flex;
 	}
 
 	.header-container > p {
@@ -269,14 +286,15 @@ progress::-moz-progress-bar {
 
 	.flex-item.left {
 		flex-basis: 63%;
-		margin-left: 20px;
+		margin-left: 40px;
 	}
 
 	.flex-item.right{
-		background-color: #00001f;
-		color: azure;
-		min-width: 34%;
+		background-color: transparent;
+		color: black;
+		min-width: 31%;
 		margin: 0;
+		border-left: 1px dashed black;
 	}
 
 	#header-photo {
@@ -295,6 +313,10 @@ progress::-moz-progress-bar {
 		margin-bottom: 50px;
 	}
 
+	#contacts-list li span {
+		margin-left: 5px;
+	}
+
 	#skills-list li {
 		margin-bottom: 10px;
 	}
@@ -311,6 +333,25 @@ progress::-moz-progress-bar {
 
 	.header-container.flex-item.left {
 		margin-top: 60px;
+	}
+
+	progress {
+	    background-color: #f3f3f3;
+	    border: 1px solid black;
+	    height: 0.7em;
+	    width: 85%;
+	}	
+
+	progress::-webkit-progress-bar {
+	    background-color: #e0eaf0;
+	}	
+
+	progress::-webkit-progress-value {
+	    background-color: #777;
+	}	
+
+	progress::-moz-progress-bar {
+	    background-color: #329ad1;
 	}
 
 }
