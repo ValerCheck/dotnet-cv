@@ -172,28 +172,35 @@ h4.job-title {
 	flex-direction: column;
 }
 
-#contacts-list li span {
+#contacts-list li * {
 	margin-left: 20px;
 }
 
 #contacts-list li:before {
 	display: block;
-	width: 50px;
+	width: 65px;
+	font-weight: bold;
+}
+
+#contacts-list a {
+	text-decoration: none;
+	color: white;
 }
 
 #address:before {
-	content: "Address: ";
-	font-weight: bold;
+	content: "Location: ";
 }
 
 #email:before {
 	content: "Email: ";
-	font-weight: bold;
 }
 
 #phone:before {
 	content: "Phone: ";
-	font-weight: bold;
+}
+
+#github:before {
+	content: "GitHub: ";
 }
 
 .set {
