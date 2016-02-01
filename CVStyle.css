@@ -470,7 +470,7 @@ progress::-moz-progress-bar {
 	}
 
 	.flex-item.right{
-		background-color: transparent;
+		background-color: whitesmoke;
 		color: black;
 		min-width: 31%;
 		margin: 0;
