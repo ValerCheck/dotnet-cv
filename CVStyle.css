@@ -406,7 +406,7 @@ progress::-moz-progress-bar {
 @media print {
 
 	body {
-		height: 297mm;
+		height: 594mm;
 		width: 210mm;
 		margin: 0;
 		padding: 0;
@@ -439,7 +439,7 @@ progress::-moz-progress-bar {
 
 	#main {
 		box-shadow: 0 0 24px black;
-		height: 297mm;
+		height: 594mm;
 		margin: auto;
 		width: 100%;
 		display: flex;
@@ -467,6 +467,10 @@ progress::-moz-progress-bar {
 	.flex-item.left {
 		flex-basis: 63%;
 		margin-left: 40px;
+	}
+
+	.section-education {
+		margin-top: 200px;
 	}
 
 	.flex-item.right{
