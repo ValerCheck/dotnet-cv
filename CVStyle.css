@@ -470,7 +470,7 @@ progress::-moz-progress-bar {
 	}
 
 	.section-education {
-		margin-top: 200px;
+		margin-top: 100px;
 	}
 
 	.flex-item.right{
@@ -689,6 +689,10 @@ progress::-moz-progress-bar {
 		.header-container > p,
 		.flex-list-item {
 			padding: 0 1em;
+		}
+
+		#header-description {
+			padding-top: 0;
 		}
 }
 
