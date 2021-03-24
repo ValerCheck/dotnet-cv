@@ -590,7 +590,7 @@ progress::-moz-progress-bar {
 			margin: 10px auto 10px auto;
 		}
 
-		.table-list-date span {
+		.table-list-date > * {
 			display: block;
 			text-align: center;
 			background-color: #00001f;
